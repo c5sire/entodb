@@ -2,7 +2,7 @@ library(rjson)
 library(stringr)
 
 #'
-#'
+#'@author Reinhard Simon
 #'@param query an R object (list of lists)
 esQuery <- function(query, host = "localhost", port=9200){
   
